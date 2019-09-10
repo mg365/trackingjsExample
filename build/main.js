@@ -7,7 +7,7 @@ layui.use(['layer', 'form', 'element', 'jquery', 'dialog'], function() {
 	var hideBtn = $('#hideBtn');
 	var mainLayout = $('#main-layout');
 	var mainMask = $('.main-mask');
-	window.jsVersion = '2019080201';//js 版本号
+	window.jsVersion = new Date().getTime();//js 版本号
 	//监听导航点击
 	element.on('nav(leftNav)', function(elem) {
 		var navA = $(elem);

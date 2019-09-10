@@ -7,7 +7,7 @@
 .demo-title {
   position: absolute;
   width: 100%;
-  background: #2e2f33;
+  background: #5164b1;
   z-index: 2;
   padding: .7em 0;
 }
@@ -26,7 +26,6 @@
 }
 
 .demo-frame {
-  background: url(frame.png) no-repeat;
   width: 854px;
   height: 658px;
   position: fixed;
