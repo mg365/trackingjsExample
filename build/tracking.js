@@ -87,6 +87,8 @@
         } catch (err) {
           element.srcObject = stream;
         }
+          //播放视频
+         // element.play();
       }, function() {
         throw Error('Cannot capture user camera.');
       }

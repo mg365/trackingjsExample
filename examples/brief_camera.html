@@ -7,8 +7,8 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="assets/demo.css">
 
-  <script src="../build/tracking-min.js"></script>
-  <script src="../../dat-gui/build/dat.gui.min.js"></script>
+  <script src="../build/tracking.js"></script>
+  <script src="../dat-gui/build/dat.gui.min.js"></script>
   <script src="assets/stats.min.js"></script>
 
   <style>
@@ -22,8 +22,8 @@
   }
   #video {
     position: absolute;
-    top: -1000px;
     cursor: crosshair;
+    margin-top: 300px;
   }
   body {
     -webkit-touch-callout: none;
@@ -38,14 +38,14 @@
 <body>
 
   <div class="demo-title">
-    <p><a href="http://trackingjs.com" target="_parent">tracking.js</a> － Click and drag to select the area to be tracked</p>
+    <p>单击并拖动以选择要跟踪的区域</p>
   </div>
 
   <div id="boundingBox"></div>
 
   <div class="demo-frame">
     <div class="demo-container">
-      <video id="video" width="393" height="295" preload autoplay loop muted controls></video>
+      <video id="video" width="393" height="295" preload autoplay loop muted ></video>
       <canvas id="canvas" width="800" height="530"></canvas>
   </div>
 </div>
